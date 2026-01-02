@@ -27,7 +27,7 @@ It'll gonna reboot and you'll need to Set-up your device.
 
 ## Flashing Android 15 with Linux - Newbies
 - Grab [OdinV4](https://github.com/Adrilaw/OdinV4/releases/tag/v1.0).
-- Extract it, give it execution permissions and copy it to one of the binary folders from `PATH`.
+- Extract it, give it execution permissions and copy it to one of the executable folders from `PATH`.
   ```bash
   chmod +x /path/to/extracted/binary/odin4
   # Then
