@@ -48,7 +48,7 @@ Maintainers: [Doze-Off](https://github.com/Doze-off?tab=repositories),  [mytja](
    - **A15** 9.9.3 BgN & BvN Builds from [mytja Builds](https://github.com/mytja/treble_evo/releases/tag/20250422)
      > May lag in QS.
 - RisingOS Revived
-   - **A16** 8.8.1 BvN Build from [Doze-Off Builds](https://github.com/Doze-off/rising_treble/releases/tag/2025-09-30)
+   - **A16** 8.1.1 BvN Build from [Doze-Off Builds](https://github.com/Doze-off/rising_treble/releases/tag/2025-09-30)
      > A bit unstable. May lag in QS.
 - KLC OS
    - **A15** 2.0 BvN Build from [LoggingNewMemory](https://github.com/LoggingNewMemory)
