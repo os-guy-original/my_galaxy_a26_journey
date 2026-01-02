@@ -17,6 +17,7 @@
   - Linux:
     Enter `odin4 -a /path/to/magisk_patchedxxxx.img.tar` from terminal.
 - When it's done, set-up your phone and you should now a Magisk app on your home screen which'll download the magisk manager.
+- Once it's downloaded and installed, it'll ask you to do some required stuff to actually set up root. Just accept it.
 
 # FAQ
 ### Will The Root Be Deleted When I Install A GSI?
