@@ -1,6 +1,6 @@
 # How To ROOT This Device
 You got 2 options here.
-- KernelSU - Run inside kernel, less detectable - **RECOMMENDED**
+- KernelSU - Runs inside kernel, less detectable - **RECOMMENDED**
 - Magisk - User Space
 
 ## KernelSU
