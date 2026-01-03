@@ -7,8 +7,7 @@ You got 2 options here.
 > [!IMPORTANT]
 > The method used below is to install a GKI (Generic Kernel Image).
 >
-> They'll be only used for testing purposes, starting from version 3.0.0 .
-> And they states that there'll be no future release for GKIs.
+> They'll be only used for testing purposes, starting from version 3.0.0 and KernelSU team states that there'll be no future release for GKIs.
 >
 > The method shown below worked fine on this device, and it's the recommended way for fixing Play Integrity.
 
