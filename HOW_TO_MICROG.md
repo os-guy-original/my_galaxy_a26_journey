@@ -20,6 +20,8 @@ If you're using a vanilla GSI, this guide is for you.
 Try [PIF (Play Integrity Fork)](https://github.com/osm0sis/PlayIntegrityFork) module, it may help you fix the problem.. There's nothing I can do for this issue for now.
 > [!IMPORTANT]
 > If your GSI already has an option for fixing the Play Integrity, don't install modules like this. They'll going to conflict and may cause more issues.
+#### It Crashes When I Install A PIF Solution Via Magisk, How Can I Fix It?
+It's an expected behaviour. Just install some apps like [Droid-ify](https://f-droid.org/packages/com.looker.droidify/) or [F-Droid](https://f-droid.org/en/) itself, add the [microG Repository](https://repo.microg.org/fdroid/repo?fingerprint=9BD06727E62796C0130EB6DAB39B73157451582CBD138E86C468ACC395D14165), and re-install microG Services with the Companion (FakeStore) app without uninstalling them.
 
 ### Can I Use It To Replace GApps (Google Apps)?
 It's pretty work-in-progress and not expected to success. It may even be removed.
