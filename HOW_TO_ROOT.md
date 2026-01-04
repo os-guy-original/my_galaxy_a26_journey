@@ -1,5 +1,5 @@
 # How To ROOT This Device
-You got 2 options here.
+You got 3 options here.
 - KernelSU-Next - Runs inside kernel, less detectable - **RECOMMENDED**
 - KernelSU - Runs inside kernel, less detectable - **Less Recommended**
 - Magisk - User Space - **Great For Beginners**
