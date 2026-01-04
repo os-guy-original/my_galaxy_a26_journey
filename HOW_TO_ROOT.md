@@ -65,9 +65,12 @@ You got 3 options here.
 
 ## Magisk
 ### Extracting the AP
-- Firstly, you need to unlock your Bootloader using [this guide](HOW_TO_BOOTLOADER.md).
-- Then, grab your Android 15 firmware files with [this guide](HOW_TO_BOOTLOADER.md), top part shows you which one you need.
+- Grab your Android 15 firmware files with [this guide](HOW_TO_BOOTLOADER.md), top part shows you which one you need.
 - Extract the firmware and take the `AP` file.
+
+### Check
+- Firstly, you need to unlock your Bootloader using [this guide](HOW_TO_BOOTLOADER.md).
+
 ### Installing Magisk
 - Grab the magisk manager APK file from [this page](https://github.com/topjohnwu/Magisk/releases/tag/v30.6).
 - After that, install it.
