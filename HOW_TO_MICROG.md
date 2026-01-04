@@ -5,7 +5,7 @@ Some of the GSIs give it bundled, but some of them don't.
 If you're using a vanilla GSI, this guide is for you.
 
 ## First Checks
-# KernelSU and KernelSU-Next
+### KernelSU and KernelSU-Next
 - Firstly, you need to install your desired KernelSU solution with [this guide](HOW_TO_ROOT.md).
 - You need [meta-overlayfs](https://github.com/KernelSU-Modules-Repo/meta-overlayfs) installed. Just flash it with your KernelSU/KernelSU-Next manager.
 
