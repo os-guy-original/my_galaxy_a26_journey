@@ -1,7 +1,34 @@
 # How To ROOT This Device
 You got 2 options here.
-- KernelSU - Runs inside kernel, less detectable - **RECOMMENDED**
-- Magisk - User Space
+- KernelSU-Next - Runs inside kernel, less detectable - **RECOMMENDED**
+- KernelSU - Runs inside kernel, less detectable - **Less Recommended**
+- Magisk - User Space - **Great For Beginners**
+
+## KernelSU-Next
+> [!IMPORTANT]
+> The method used below is to install a GKI (Generic Kernel Image).
+
+- You need a GSI installed on your system. This method does and will not work on OneUI. [See how](HOW_TO_GSI.md).
+- You need to grab the `Anykernel3` version that matches your current kernel. Here are the [releases](https://github.com/WildKernels/GKI_KernelSU_SUSFS/releases). Grab one from a release that is **NOT** a testing one.
+  - For example, the kernel version that my device uses is `5.15.153-android13-8-gb57bf46f2a43`, so I need to download this specific release: `AnyKernel3-android13-5.15.153_2024-09.zip`.
+  - Basically, run `adb shell uname -a` on your computer while your device is plugged in, you should see something like this:
+    ```bash
+    # It's usually like this:
+    Linux localhost 5.15.153-android13-8-gb57bf46f2a43 #1 SMP PREEMPT Fri Nov 14 09:12:15 UTC 2025 aarch64 Toybox
+  
+    # Kernel version is: 5.15.153-android13-8-gb57bf46f2a43
+    ```
+  - `5.15.153` is the actual Linux kernel version and `android13` is the Android version, don't worry, it's not your OS version.
+  - So we need to get `AnyKernel3-android13-5.15.153_2024-09.zip`, the `2024-09` part is the security patch date. You can simply ignore that.
+- Once the `.zip` downloaded, head over to the **TWRP**. Follow [this guide](HOW_TO_TWRP.md) if you didn't flashed TWRP yet, or OneUI vanished the previous one.
+- Enter **ADB Sideloading** from **Advanced** section.
+- Flash `Anykernel3` with this command:
+  ```bash
+  adb sideload /path/to/Anykernel3-xxxxxxxx.zip`
+  ```
+- Once it's done, reboot to System.
+- Download and install [KernelSU-Next manager](https://github.com/KernelSU-Next/KernelSU-Next/releases/download/v3.0.0/KernelSU_Next_v3.0.0_32857-release.apk) app, and you shoud be able to use KernelSU-Next now!
+
 
 ## KernelSU
 > [!IMPORTANT]
@@ -30,7 +57,11 @@ You got 2 options here.
   adb sideload /path/to/Anykernel3-xxxxxxxx.zip`
   ```
 - Once it's done, reboot to System.
-- Download and install KernelSU manager app, and you shoud be able to use KernelSU now!
+- Download and install [KernelSU manager](https://github.com/tiann/KernelSU/releases/download/v3.0.0/KernelSU_v3.0.0_32179-release.apk) app, and you shoud be able to use KernelSU now!
+  > [!IMPORTANT]
+  > Please note that the v3.0.0 of the KernelSU manager app may crash a lot when opening it.
+  >
+  > Just install the [previous release](https://github.com/tiann/KernelSU/releases/download/v2.1.2/KernelSU_v2.1.2-7-g463afa74_22091-release.apk), it's more stable on this device.
 
 ## Magisk
 ### Extracting the AP
