@@ -7,6 +7,8 @@ You got 3 options here.
 ## KernelSU-Next
 > [!IMPORTANT]
 > The method used below is to install a GKI (Generic Kernel Image).
+>
+> The method shown below worked fine on this device, and it's the recommended way for fixing Play Integrity.
 
 - You need a GSI installed on your system. This method does and will not work on OneUI. [See how](HOW_TO_GSI.md).
 - You need to grab the `Anykernel3` version that matches your current kernel. Here are the [releases](https://github.com/WildKernels/GKI_KernelSU_SUSFS/releases). Grab one from a release that is **NOT** a testing one.
@@ -35,8 +37,6 @@ You got 3 options here.
 > The method used below is to install a GKI (Generic Kernel Image).
 >
 > They'll be only used for testing purposes, starting from version 3.0.0 and KernelSU team states that there'll be no future release for GKIs.
->
-> The method shown below worked fine on this device, and it's the recommended way for fixing Play Integrity.
 
 - You need a GSI installed on your system. This method does and will not work on OneUI. [See how](HOW_TO_GSI.md).
 - You need to grab the `Anykernel3` version that matches your current kernel. Here are the [releases](https://github.com/tiann/KernelSU/releases/tag/v2.1.2).
