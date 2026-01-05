@@ -54,6 +54,8 @@ Maintainers: [Doze-Off](https://github.com/Doze-off?tab=repositories),  [mytja](
    - **A15** 2.0 BvN Build from [LoggingNewMemory](https://github.com/LoggingNewMemory)
      > No issues. You may need to fix Play Integrity yourself.
 - Infinity X
+   - **A16** 3.6 Vanilla Build from [Doze-Off Builds](https://github.com/Doze-off/ProjectInfinity-X_gsi/releases/tag/2026-01-04)
+     > Didn't boot.
    - **A16** 3.5 Vanilla Build from [Doze-Off Builds](https://github.com/Doze-off/ProjectInfinity-X_gsi/releases/tag/2025-12-13)
      > May lag in QS.
    - **A16** 3.0 GApps & Vanilla Builds from [Doze-Off Builds](https://github.com/Doze-off/manifest/releases/tag/2025-08-01) [Archived]
