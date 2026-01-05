@@ -64,7 +64,7 @@ Maintainers: [Doze-Off](https://github.com/Doze-off?tab=repositories),  [mytja](
      > No setup, it directly opens up the Home.
 - Lunaris AOSP
    - **A16** 3.6 Vanilla Build from [Doze-Off Builds](https://github.com/Doze-off/Lunaris-AOSP_gsi/releases/tag/2025-12-14)
-     > May lag with A16 QS. - Fixable with "Legacy Quick Settings" option. **Most stable one amon A16s**.
+     > May lag with A16 QS. - Fixable with "Legacy Quick Settings" option. **Most stable among A16s**.
 - DerpFest
    - **A16** 16.0 Vanilla & microG Builds from [Doze-Off Builds](https://github.com/Doze-off/Derpfest_treble/releases/tag/2025-10-12)
      > May lag in QS.
