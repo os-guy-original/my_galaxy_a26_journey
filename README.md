@@ -22,7 +22,7 @@ Maintainers: [Doze-Off](https://github.com/Doze-off?tab=repositories),  [mytja](
    - **A16** 12.0 BvN Build from [Doze-Off Builds](https://github.com/Doze-off/crdroid_gsi_treble/releases/tag/2025-08-02)
      > Activity Transition Animation Stutter Issues.
    - **A15** 11.12 microG Build from [crDroidOS Builds](https://sourceforge.net/projects/crdroidos/files/GSI/v11.12-20251223-microG-gsi.img.xz/download)
-     > No Issues. You may need to fix Play Integrity yourself.
+     > No Issues. You may need to fix Play Integrity yourself. **Most stable among A15s**.
    - **A15** 11.6 BvN Build from [Doze-Off Builds](https://github.com/Doze-off/crdroid_gsi_treble/releases/tag/2025-06-18)
      > No Issues. You may need to fix Play Integrity yourself.
 - /e/OS
@@ -64,7 +64,7 @@ Maintainers: [Doze-Off](https://github.com/Doze-off?tab=repositories),  [mytja](
      > No setup, it directly opens up the Home.
 - Lunaris AOSP
    - **A16** 3.6 Vanilla Build from [Doze-Off Builds](https://github.com/Doze-off/Lunaris-AOSP_gsi/releases/tag/2025-12-14)
-     > May lag with A16 QS. - Fixable with "Legacy Quick Settings" option.
+     > May lag with A16 QS. - Fixable with "Legacy Quick Settings" option. **Most stable one amon A16s**.
 - DerpFest
    - **A16** 16.0 Vanilla & microG Builds from [Doze-Off Builds](https://github.com/Doze-off/Derpfest_treble/releases/tag/2025-10-12)
      > May lag in QS.
@@ -80,4 +80,4 @@ Maintainers: [Doze-Off](https://github.com/Doze-off?tab=repositories),  [mytja](
      > May lag in QS.
 - Axion AOSP
    - **A16** 2.1 Vanilla Build from [Doze-Off Builds](https://github.com/Doze-off/axion_aosp/releases/tag/2025-10-28)
-     > No issues. Most stable one.
+     > No issues.
