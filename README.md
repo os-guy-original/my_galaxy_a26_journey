@@ -69,6 +69,9 @@ Maintainers: [Doze-Off](https://github.com/Doze-off?tab=repositories),  [mytja](
    - **A16** 16.0 Vanilla & microG Builds from [Doze-Off Builds](https://github.com/Doze-off/Derpfest_treble/releases/tag/2025-10-12)
      > May lag in QS.
    - **A16** 16.1 expected soon.
+- OrionOS
+   - **A16** 16.0 Vanilla Build from [Doze-Off Builds](https://github.com/Doze-off/orion_treble/releases/tag/2026-01-05)
+     > Too laggy.
 - SuperiorOS
    - **A16** Vanilla Build from [Doze-Off Builds](https://github.com/Doze-off/SuperiorOS_treble/releases/tag/2025-11-08)
      > May lag in QS.
