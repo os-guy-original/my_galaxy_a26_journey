@@ -81,3 +81,6 @@ Maintainers: [Doze-Off](https://github.com/Doze-off?tab=repositories),  [mytja](
 - Axion AOSP
    - **A16** 2.1 Vanilla Build from [Doze-Off Builds](https://github.com/Doze-off/axion_aosp/releases/tag/2025-10-28)
      > No issues.
+   - **A16** 2.2.1 Vanilla Build from [Doze-Off Builds](https://github.com/Doze-off/axion_aosp/releases/tag/2026-01-10)
+     > No issues. Smoothest experience.
+   - **A16** 2.3 Expected.
