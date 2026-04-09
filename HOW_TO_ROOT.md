@@ -10,7 +10,6 @@ You got 3 options here.
 >
 > The method shown below worked fine on this device, and it's the recommended way for fixing Play Integrity.
 
-- You need a GSI installed on your system. This method does and will not work on OneUI. [See how](HOW_TO_GSI.md).
 - You need to grab the `Anykernel3` version that matches your current kernel. Here are the [releases](https://github.com/WildKernels/GKI_KernelSU_SUSFS/releases). Grab one from a release that is **NOT** a testing one.
   - For example, the kernel version that my device uses is `5.15.153-android13-8-gb57bf46f2a43`, so I need to download this specific release: `AnyKernel3-android13-5.15.153_2024-09.zip`.
   - Basically, run `adb shell uname -a` on your computer while your device is plugged in, you should see something like this:
