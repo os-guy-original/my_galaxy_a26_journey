@@ -42,3 +42,16 @@ This is a bit risky if you don't know what's are the contents of BL and AP files
 - Now you can just delete the magisk patched AP completely.
 - Now zip the **OneUI 8 tinkered** AP folder by selecting everything in it with CTRL + A.
 - And lastly use your favorite Samsung flash tools to flash the tinkered AP, BL with the stock CP, CSC.
+
+# FAQ
+## The OEM Unlock Option Is Missing In Developer Options
+This can mean 2 things:
+- Either your bootloader is locked again, which can happen if you didn't follow the tutorial carefully.
+- Or even the OneUI doesn't know what's happening, which is my case right now. Don't worry, the bootloader is actually unlocked.
+  - If that's the case, a simple reboot can make it appear back.
+
+## The OEM Unlock Is NOT Grayed Out, What's Happening?
+On EVERY Android, grayed out OEM Unlock option means the Bootloader is already unlocked, so you can't even disable OEM Unlock.
+But in our case, the option is NOT grayed out, but enabled.
+
+What to do? Yeah, just don't touch it. Your bootloader is already unlocked if you see the orange state text on boot.
