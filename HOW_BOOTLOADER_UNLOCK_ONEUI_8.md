@@ -28,7 +28,7 @@ Currently, this tutorial will make you also install Magisk, but you can remove i
 > READ THE FOLLOWING CAREFULLY!
 
 - Go to the contents of the extracted OneUI 7 folder.
-- Extract the file BL file.
+- Extract the BL zip.
 - Go to the contents of the extracted OneUI 8 folder.
 - Do the same extraction for the `BL_xxxxx.tar.md5` and remove the `sboot.img.lz4` inside the contents.
 - Grab the `sboot.img.lz4` FROM **OneUI 7** BL contents and put it into the **OneUI 8** BL contents. This'll basically swap the sboot of OneUI 8 with the OneUI 7.
@@ -36,7 +36,7 @@ Currently, this tutorial will make you also install Magisk, but you can remove i
 - Grab the `vbmeta.img.lz4` from the **OneUI 8** BL, and **MOVE** it over to the **OneUI 8** AP folder.
 - Now, select every content of the **OneUI 8** AP folder with CTRL + A, and TAR it with your favorite TAR archiver.
   - Don't forget that you MUST NOT see another folder tree when you directly opened the TAR archive. You know what I mean.
-- Now, move this AP folder to your phone and patch it with Magisk. This is required to patch that `vbmeta.img` file.
+- Now, move this AP zip to your phone and patch it with Magisk. This is required to patch that `vbmeta.img` file.
 - Once it patches, move the patched AP file over to you computer and extract it.
 - Grab the `vbmeta.img` from the magisk patched AP folder and move it over to the **OneUI 8** BL folder.
 - Now TAR your **tinkered OneUI 8** BL folder by selecting everything in it with CTRL + A.
