@@ -1,6 +1,5 @@
 # How To Unlock Bootloader On OneUI 8?
 This is a bit risky if you don't know what's are the contents of BL and AP files.
-Currently, this tutorial will make you also install Magisk, but you can remove it later. It is required to patch the vbmeta file.
 
 > [!IMPORTANT]
 > You need the firmwares that have the SAME EXACT bit value. It's the **last 5th** character of the build number, or Version if you're downloading from [SamFW](https://samfw.com/firmware/SM-A266B).
