@@ -40,5 +40,6 @@ Currently, this tutorial will make you also install Magisk, but you can remove i
 - Once it patches, move the patched AP file over to you computer and extract it.
 - Grab the `vbmeta.img` from the magisk patched AP folder and move it over to the **OneUI 8** BL folder.
 - Now TAR your **tinkered OneUI 8** BL folder by selecting everything in it with CTRL + A.
-- You can either use the **OneUI 8** magisk patched AP or the **OneUI 8** AP that you moved the `vbmeta.img` to BL.
+- Now you can just delete the magisk patched AP completely.
+- Now zip the **OneUI 8 tinkered** AP folder by selecting everything in it with CTRL + A.
 - And lastly use your favorite Samsung flash tools to flash the tinkered AP, BL with the stock CP, CSC.
