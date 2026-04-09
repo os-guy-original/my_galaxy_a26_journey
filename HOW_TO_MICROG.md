@@ -14,7 +14,7 @@ If you're using a vanilla GSI, this guide is for you.
 - Once you set it up on OneUI 7 and got the Magisk on the GSI, we can continue.
 
 ## Installation
-- Grab the `noogle-microg` module from [this page](https://github.com/os-guy-original/noogle-magisk/releases/tag/v3.1).
+- Grab the `microg-flex` module from [this page](https://gitlab.com/OpenSourceGuy/microg-flex).
 - Open up your root manager and click on `Modules`.
 - Click on `Install` (or `Install from storage` if Magisk) and select the `noogle-microg-vX.Y.zip`.
 - It'll gonna ask you to download the **microG Services** and the **Companion App (FakeStore)**. Just click **Vol+** and it'll automatically set it up for you.
