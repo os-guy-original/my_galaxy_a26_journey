@@ -20,7 +20,7 @@
 > I tried installing one with OneUI 8 firmware but still no luck.
 > If you figured it out, please create an issue about it, I will pin it here.
 
-Maintainers: [Doze-Off](https://github.com/Doze-off?tab=repositories),  [mytja](https://github.com/mytja), [MisterZtr](https://sourceforge.net/projects/misterztr-gsi/files/), [crDroidOS](https://sourceforge.net/projects/crdroidos/files/GSI/), [LoggingNewMemory](https://github.com/LoggingNewMemory)
+Maintainers: [Doze-Off](https://github.com/Doze-off?tab=repositories),  [mytja](https://github.com/mytja), [MisterZtr](https://sourceforge.net/projects/misterztr-gsi/files/), [crDroidOS](https://sourceforge.net/projects/crdroidos/files/GSI/)
 
 ### Tested GSIs:
 - crDroid
@@ -55,9 +55,6 @@ Maintainers: [Doze-Off](https://github.com/Doze-off?tab=repositories),  [mytja](
 - RisingOS Revived
    - **A16** 8.1.1 BvN Build from [Doze-Off Builds](https://github.com/Doze-off/rising_treble/releases/tag/2025-09-30)
      > A bit unstable. May lag in QS.
-- KLC OS
-   - **A15** 2.0 BvN Build from [LoggingNewMemory](https://github.com/LoggingNewMemory)
-     > No issues. You may need to fix Play Integrity yourself.
 - Infinity X
    - **A16** 3.6 Vanilla Build from [Doze-Off Builds](https://github.com/Doze-off/ProjectInfinity-X_gsi/releases/tag/2026-01-04)
      > Didn't boot.
