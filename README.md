@@ -12,13 +12,13 @@
 > 
 > If you found one, please open up a PR or report it here as an issue.
 
+## Custom ROM Availibility - For Those Who Hates Sticking To Stock OS Like Me
+**STATUS**: GSI Compatible, no Custom ROM available.
+
 > [!IMPORTANT]
 > Any of the Android 16 QPR1 and QPR2 GSIs are working.
 > I tried installing one with OneUI 8 firmware but still no luck.
 > If you figured it out, please create an issue about it, I will pin it here.
-
-## Custom ROM Availibility - For Those Who Hates Sticking To Stock OS Like Me
-**STATUS**: GSI Compatible, no Custom ROM available.
 
 Maintainers: [Doze-Off](https://github.com/Doze-off?tab=repositories),  [mytja](https://github.com/mytja), [MisterZtr](https://sourceforge.net/projects/misterztr-gsi/files/), [crDroidOS](https://sourceforge.net/projects/crdroidos/files/GSI/), [LoggingNewMemory](https://github.com/LoggingNewMemory)
 
