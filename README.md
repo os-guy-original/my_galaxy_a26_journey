@@ -16,7 +16,7 @@
 **STATUS**: GSI Compatible, no Custom ROM available.
 
 > [!IMPORTANT]
-> Any of the Android 16 QPR1 and QPR2 GSIs are working.
+> Any of the Android 16 QPR1 and QPR2 GSIs are **not** working.
 > I tried installing one with OneUI 8 firmware but still no luck.
 > If you figured it out, please create an issue about it, I will pin it here.
 
