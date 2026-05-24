@@ -12,6 +12,11 @@
 > 
 > If you found one, please open up a PR or report it here as an issue.
 
+> [!IMPORTANT]
+> Any of the Android 16 QPR1 and QPR2 GSIs are working.
+> I tried installing one with OneUI 8 firmware but still no luck.
+> If you figured it out, please create an issue about it, I will pin it here.
+
 ## Custom ROM Availibility - For Those Who Hates Sticking To Stock OS Like Me
 **STATUS**: GSI Compatible, no Custom ROM available.
 
@@ -68,7 +73,6 @@ Maintainers: [Doze-Off](https://github.com/Doze-off?tab=repositories),  [mytja](
 - DerpFest
    - **A16** 16.0 Vanilla & microG Builds from [Doze-Off Builds](https://github.com/Doze-off/Derpfest_treble/releases/tag/2025-10-12)
      > May lag in QS.
-   - **A16** 16.1 expected soon.
 - OrionOS
    - **A16** 16.0 Vanilla Build from [Doze-Off Builds](https://github.com/Doze-off/orion_treble/releases/tag/2026-01-05)
      > Too laggy.
@@ -83,4 +87,3 @@ Maintainers: [Doze-Off](https://github.com/Doze-off?tab=repositories),  [mytja](
      > No issues.
    - **A16** 2.2.1 Vanilla Build from [Doze-Off Builds](https://github.com/Doze-off/axion_aosp/releases/tag/2026-01-10)
      > No issues. Smoothest experience.
-   - **A16** 2.3 Expected.
