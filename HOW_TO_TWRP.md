@@ -4,11 +4,15 @@
 - Grab latest TWRP for this device from [this page](https://eu.dl.twrp.me/a26x/). `.img.tar` is recommended.
 - Enter [download mode](HOW_TO_BOOTLOADER.md#how-to-enter-download-mode) on your phone and press **Vol+** to skip the warnings.
 - Plug your phone into your computer.
-- Flash the downloaded TWRP file with Odim.
+- Flash the downloaded TWRP file with Odin or Brokkr Flash.
   - Windows:
-    Choose AP and select the TWRP file.
+     - OdinV3 and Brokkr Flash: 
+        - Choose AP and select the TWRP file.
   - Linux:
-    Enter `odin4 -a /path/to/twrp.img.tar` from terminal.
+     - Odin: 
+        - Enter `odin4 -a /path/to/twrp.img.tar` from terminal.
+     - Brokkr Flash:
+        - Choose AP and select the TWRP file.
 - Once it finishes, you need to **IMMEDIATELY** enter TWRP with **Power + Vol+** once the `Download Mode` closes. Otherwise the Stock OS will overwrite it with the Stock Recovery.
 
 Congrats! You now have TWRP installed on your device.
