@@ -1,4 +1,4 @@
-# How To FLash TWRP?
+# How To Flash TWRP?
 - Grab Odin for your desired system, [Linux](HOW_TO_BOOTLOADER.md#flashing-android-15-with-linux---newbies) `(first 3 steps)` & [Windows](HOW_TO_BOOTLOADER.md#flashing-android-15-with-windows---newbies) `(First step)`.
 - You need to have your Bootloader Unlocked. Check how to do it [here](HOW_TO_BOOTLOADER.md).
 - Grab latest TWRP for this device from [this page](https://eu.dl.twrp.me/a26x/). `.img.tar` is recommended.
