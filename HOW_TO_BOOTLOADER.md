@@ -27,20 +27,20 @@ It'll gonna reboot and you'll need to Set-up your device.
 
 ## Flashing Android 15 with Linux - Newbies
 - Grab [OdinV4](https://github.com/Adrilaw/OdinV4/releases/tag/v1.0) or [Brokkr Flash](https://github.com/Gabriel2392/brokkr-flash/releases).
-- Odin:
-   - Extract it, give it execution permissions and copy it to one of the executable folders from `PATH`.
-     ```bash
-     chmod +x /path/to/extracted/binary/odin4
-     # Then
-     sudo cp /path/to/extracted/binary/odin4 /bin
-     ```
-   - Test with `odin4 -h`.
-- Brokkr Flash:
-   - Get the `.AppImage` file and make it executeable.
-   - If you're on Arch, or an Arch based distro:
-     ```bash
-     <your_favorite_AUR_helper> -S brokkr-flash-appimage
-     ```
+   - Odin:
+      - Extract it, give it execution permissions and copy it to one of the executable folders from `PATH`.
+        ```bash
+        chmod +x /path/to/extracted/binary/odin4
+        # Then
+        sudo cp /path/to/extracted/binary/odin4 /bin
+        ```
+      - Test with `odin4 -h`.
+   - Brokkr Flash:
+      - Get the `.AppImage` file and make it executeable.
+      - If you're on Arch, or an Arch based distro:
+        ```bash
+        <your_favorite_AUR_helper> -S brokkr-flash-appimage
+        ```
    - Test it by running `brokkr-flash` on your terminal or opening the app from the Application Menu.
 - If it runs, that means the installation was successful.
 - You need to install `android-udev` package from your distribution packages.
