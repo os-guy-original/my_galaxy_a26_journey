@@ -78,11 +78,12 @@ You got 3 options here.
 - Select **Patch Method**.
 - Select the `AP` file that you copied over from you computer.
 - Once the patching finishes, go to you Downloads folder from your phone and grab the `magisk_patchedxxxx.img.tar` file, and copy it to your computer.
-- Enter the [download mode](HOW_TO_BOOTLOADER.md#how-to-enter-download-mode) and flash the magisk patched `AP` file with Odin. Learn how to install Odin on your system, [Linux](HOW_TO_BOOTLOADER.md#flashing-android-15-with-linux---newbies) `(first 3 steps)` & [Windows](HOW_TO_BOOTLOADER.md#flashing-android-15-with-windows---newbies) `(First step)`.
+- Enter the [download mode](HOW_TO_BOOTLOADER.md#how-to-enter-download-mode) and flash the magisk patched `AP` file with Odin or Brokkr Flash. Learn how to install Odin or Brokkr Flash on your system, [Linux](HOW_TO_BOOTLOADER.md#flashing-android-15-with-linux---newbies) `(first 3 steps)` & [Windows](HOW_TO_BOOTLOADER.md#flashing-android-15-with-windows---newbies) `(First step)`.
   - Windows:
     Choose AP and select the patched `AP` file.
   - Linux:
     Enter `odin4 -a /path/to/magisk_patchedxxxx.img.tar` from terminal.
+- Or use Brokkr Flash, the steps are same with the Odin GUI.
 - When it's done, set-up your phone and you should now a Magisk app on your home screen which'll download the magisk manager.
 - Once it's downloaded and installed, it'll ask you to do some required stuff to actually set up root. Just accept it.
 
