@@ -26,37 +26,58 @@ It'll gonna reboot and you'll need to Set-up your device.
 - Click **Vol+** again to enter Download mode.
 
 ## Flashing Android 15 with Linux - Newbies
-- Grab [OdinV4](https://github.com/Adrilaw/OdinV4/releases/tag/v1.0).
-- Extract it, give it execution permissions and copy it to one of the executable folders from `PATH`.
-  ```bash
-  chmod +x /path/to/extracted/binary/odin4
-  # Then
-  sudo cp /path/to/extracted/binary/odin4 /bin
-  ```
-- Test with `odin4 -h`.
-- If it shows the help text, that means the installation was successful.
+- Grab [OdinV4](https://github.com/Adrilaw/OdinV4/releases/tag/v1.0) or [Brokkr Flash](https://github.com/Gabriel2392/brokkr-flash/releases).
+- Odin:
+   - Extract it, give it execution permissions and copy it to one of the executable folders from `PATH`.
+     ```bash
+     chmod +x /path/to/extracted/binary/odin4
+     # Then
+     sudo cp /path/to/extracted/binary/odin4 /bin
+     ```
+   - Test with `odin4 -h`.
+- Brokkr Flash:
+   - Get the `.AppImage` file and make it executeable.
+   - If you're on Arch, or an Arch based distro:
+     ```bash
+     <your_favorite_AUR_helper> -S brokkr-flash-appimage
+     ```
+   - Test it by running `brokkr-flash` on your terminal or opening the app from the Application Menu.
+- If it runs, that means the installation was successful.
 - You need to install `android-udev` package from your distribution packages.
   > For example, on arch linux: `sudo pacman -S android-udev`
 - Enter [download mode](#how-to-enter-download-mode) on your phone.
-- Plug in your cable and flash everything with odin4.
-  ```bash
-  odin4 -a /Path/To/AP -b /Path/To/BL -c /Path/To/CP -s /Path/To/CSC # !! NOT HOME_CSC !!
-  ```
+- Plug in your cable and flash everything.
+   - Odin:
+     ```bash
+     odin4 -a /Path/To/AP -b /Path/To/BL -c /Path/To/CP -s /Path/To/CSC # !! NOT HOME_CSC !!
+     ```
+   - Brokkr Flash:
+     - Just select the `AP` file for `AP` and so on, it's the exact same as the `OdinV3` On Windows.
+     - And start the flashing.
 - Wait for the tool to finish flashing.
 - After the flash is complete, wait for your device to Boot up, it might take several minutes.
 - Set-up your device and make sure that you enabled **USB Debugging** and **OEM Unlcoking** from `Developer Options`.
 
 ## Flashing Android 15 with Windows - Newbies
-- Grab the OdinV3 from [this website](https://www.odinflash.com/).
+- Grab the OdinV3 from [this website](https://www.odinflash.com/) or Brokkr Flash from [it's releases](https://github.com/Gabriel2392/brokkr-flash/releases).
 - Enter [download mode](#how-to-enter-download-mode) on your phone.
-- Plug in your cable and flash everything with Odin:
-  > AP - AP_xxxxxx.md5.tar
-  > 
-  > BL - BL_xxxxxx.md5.tar
-  > 
-  > CP - CP_xxxxxx.md5.tar
-  > 
-  > CSC - CSC_xxxxxxx.md5.tar
+- Plug in your cable and flash everything.
+  - Odin:
+      > AP - AP_xxxxxx.md5.tar
+      > 
+      > BL - BL_xxxxxx.md5.tar
+      > 
+      > CP - CP_xxxxxx.md5.tar
+      > 
+      > CSC - CSC_xxxxxxx.md5.tar
+  - Brokkr Flash:
+      > AP - AP_xxxxxx.md5.tar
+      > 
+      > BL - BL_xxxxxx.md5.tar
+      > 
+      > CP - CP_xxxxxx.md5.tar
+      > 
+      > CSC - CSC_xxxxxxx.md5.tar
 - Wait for the tool to finish flashing.
 - After the flash is complete, wait for your device to Boot up, it might take several minutes.
 - Set-up your device and make sure that you enabled **USB Debugging** and **OEM Unlcoking** from `Developer Options`.
